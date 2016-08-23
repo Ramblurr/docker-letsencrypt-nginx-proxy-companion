@@ -4,6 +4,8 @@ set -u
 
 export CONTAINER_ID=$(cat /proc/self/cgroup | sed -nE 's/^.+docker[\/-]([a-f0-9]{64}).*/\1/p' | head -n 1)
 
+source /app/rancher.sh
+
 if [[ -z "$CONTAINER_ID" ]]; then
     echo "Error: can't get my container ID !" >&2
     exit 1
