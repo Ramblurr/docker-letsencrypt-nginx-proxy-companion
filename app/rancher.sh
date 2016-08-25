@@ -13,4 +13,4 @@ curl https://raw.githubusercontent.com/jwilder/nginx-proxy/master/nginx.tmpl > /
 
 #create docker-gen config file
 echo "$NGINX_DOCKER_CONTAINER = 1" >> /app/docker-gen.cfg
-ln -s /app/docker-gen.cfg /etc/nginx/docker-gen/docker-gen.cfg
+cp /app/docker-gen.cfg /etc/nginx/docker-gen/docker-gen.cfg
