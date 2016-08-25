@@ -16,6 +16,6 @@ fi
 
 #create docker-gen config file
 if [ ! -f /etc/nginx/docker-gen/docker-gen.cfg ]; then
-    echo "$NGINX_DOCKER_CONTAINER = 1" >> /app/docker-gen.cfg
     cp /app/docker-gen.cfg /etc/nginx/docker-gen/docker-gen.cfg
+    echo "$NGINX_DOCKER_CONTAINER = 1" >> /etc/nginx/docker-gen/docker-gen.cfg
 fi
