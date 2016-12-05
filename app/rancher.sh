@@ -9,10 +9,8 @@ NGINX_DOCKER_CONTAINER=$STACK_NAME"_nginx_"$SCALE
 export NGINX_DOCKER_GEN_CONTAINER
 export NGINX_DOCKER_CONTAINER
 
-#download docker-gen nginx-template
-if [ ! -f /etc/nginx/docker-gen/nginx.tmpl ]; then
-    curl https://raw.githubusercontent.com/jwilder/nginx-proxy/master/nginx.tmpl > /etc/nginx/docker-gen/nginx.tmpl
-fi
+#cause of Rancher 1.2 we need an special nginx.tmpl file
+cp /app/nginx.tmpl /etc/nginx/docker-gen/nginx.tmpl
 
 #create docker-gen config file
 if [ ! -f /etc/nginx/docker-gen/docker-gen.cfg ]; then
