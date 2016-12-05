@@ -1,3 +1,16 @@
+# Fork Readme
+
+[![](https://images.microbadger.com/badges/version/munsio/rancher-letsencrypt-nginx-proxy-companion.svg)](https://hub.docker.com/r/munsio/rancher-letsencrypt-nginx-proxy-companion/ "Click to view the image on Docker Hub")
+[![](https://images.microbadger.com/badges/image/munsio/rancher-letsencrypt-nginx-proxy-companion.svg)](https://hub.docker.com/r/munsio/rancher-letsencrypt-nginx-proxy-companion/ "Click to view the image on Docker Hub")
+[![](https://img.shields.io/docker/stars/munsio/rancher-letsencrypt-nginx-proxy-companion.svg)](https://hub.docker.com/r/jrcs/letsencrypt-nginx-proxy-companion "Click to view the image on Docker Hub")
+[![](https://img.shields.io/docker/pulls/jrcs/munsio/rancher-letsencrypt-nginx-proxy-companion.svg)](https://hub.docker.com/r/jrcs/letsencrypt-nginx-proxy-companion "Click to view the image on Docker Hub")
+
+
+This build is for the Rancher catalog entry https://github.com/Munsio/rancher-cattle-nginx-letsencrypt
+
+
+# Original Readme
+
 [![](https://images.microbadger.com/badges/version/jrcs/letsencrypt-nginx-proxy-companion.svg)](https://hub.docker.com/r/jrcs/letsencrypt-nginx-proxy-companion "Click to view the image on Docker Hub")
 [![](https://images.microbadger.com/badges/image/jrcs/letsencrypt-nginx-proxy-companion.svg)](https://hub.docker.com/r/jrcs/letsencrypt-nginx-proxy-companion "Click to view the image on Docker Hub")
 [![](https://img.shields.io/docker/stars/jrcs/letsencrypt-nginx-proxy-companion.svg)](https://hub.docker.com/r/jrcs/letsencrypt-nginx-proxy-companion "Click to view the image on Docker Hub")
