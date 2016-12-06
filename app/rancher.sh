@@ -12,7 +12,5 @@ export NGINX_DOCKER_CONTAINER
 cp /app/nginx.tmpl /etc/nginx/docker-gen/nginx.tmpl
 
 #create docker-gen config file
-if [ ! -f /etc/nginx/docker-gen/docker-gen.cfg ]; then
-    cp /app/docker-gen.cfg /etc/nginx/docker-gen/docker-gen.cfg
-    echo "$NGINX_DOCKER_CONTAINER = 1" >> /etc/nginx/docker-gen/docker-gen.cfg
-fi
+cp /app/docker-gen.cfg /etc/nginx/docker-gen/docker-gen.cfg
+echo "$NGINX_DOCKER_CONTAINER = 1" >> /etc/nginx/docker-gen/docker-gen.cfg
